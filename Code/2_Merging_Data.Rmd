@@ -1,0 +1,59 @@
+---
+title: "2_Merging_Data"
+author: "Brandon D. Hoenig"
+date: '2022-06-23'
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+This file is used to merge munged data files into often used data files. 
+
+e.g., captured amphibian information with processing app
+e.g., visual encounter surveys & capture surveys. 
+
+```{r}
+library(tidyverse)
+library(plyr)
+library(anytime)
+```
+
+Read in munged files
+```{r}
+temp = paste0("Output/Munged_Data/", list.files(path = "Output/Munged_Data/", pattern= "*.csv"))
+
+list2env(
+  lapply(setNames(temp, make.names(gsub("*.csv$", "", temp) %>% 
+                                     gsub('Output.Munged_Data.', "", .))), 
+         read.csv), envir = .GlobalEnv)
+
+rm(temp) # removes temporaray file needed for reading in data
+```
+
+
+Merge Visual Encounter Surveys
+```{r}
+merged_VisualEncounterSurvey <-
+left_join(munged_VisualEncounter_Survey, munged_VisualEncounter_Survey_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')) %>% 
+  select(observer, date, location, start_time, end_time, species_ves, count_ves, comments_ves) %>%
+  drop_na(species_ves)
+
+write_csv(merged_VisualEncounterSurvey, 'Output/Merged_Data/merged_VisualEncounterSurvey.csv')
+```
+
+Merge Amphibian Capture Survey with Amphibian Processing App
+```{r}
+merged_AmphibianCaptureSurvey <-
+right_join(
+right_join(munged_Amphibian_Captured_Information, munged_Amphibian_Captured_Information_Repeatable, by = c("fulcrum_id" = "fulcrum_parent_id")), 
+
+
+right_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')),
+by = c('location', 'date', 'bag_id'))  %>%
+  arrange(created_at) %>%
+  mutate_at(vars(bd_swab_tube_id:toe_clip_tube_id), funs(replace(., duplicated(.), NA))) %>%
+  select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex)
+
+write_csv(merged_AmphibianCaptureSurvey, 'Output/Merged_Data/merged_AmphibianCaptureSurvey.csv')
+```
+
