@@ -67,7 +67,7 @@ Amphibian_Captured_Information_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_captured_amphibian_information/ple_captured_amphibian_information_captured_amphibian_information.csv') %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo)
+  select(fulcrum_id, species, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo)
 
 VisualEncounter_Survey <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_visual_encounter_survey/ple_visual_encounter_survey.csv")  %>%
