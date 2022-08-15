@@ -46,15 +46,15 @@ Amphibian_Processing_App_Repeatable_old <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_f664156f-6c21-4171-9e55-9e6332923dcf/ple_amphibian_survey/ple_amphibian_survey_amphibian_capture_survey_collections.csv") %>% 
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  ungroup() %>% 
-    rename(amp_id_1 = amp_id,
+  ungroup() %>%
+    dplyr::rename(., amp_id_1 = amp_id,
            amp_id_2 = amp_id_bm_50g,
            amp_id_3 = amp_id_bm_100g_1,
            amp_id_4 = amp_id_bm_100g_2,
            antibody_id_1 = antibody_id,
            antibody_id_2 = antibody_id_bm_50g,
            antibody_id_3 = antibody_id_bm_100g_1,
-           antibody_id_4 = antibody_id_bm_100g_2) %>%
+           antibody_id_4 = antibody_id_bm_100g_2) %>% 
   select(fulcrum_id, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id)
 
 Amphibian_Survey_old <-
@@ -62,7 +62,7 @@ Amphibian_Survey_old <-
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>%
-  ungroup() %>%
+  ungroup() %>% 
   select(location, date, observers, other_observers, edna_water_collected, edna_volume_collected_l, humidity, pressure, elevation, wind_speed_ms, air_temperature_c, dissolved_oxygen, water_temperature_c, conductivity_us, ph, sampling_event_comments) 
 
 Amphibian_Captured_Information_old <-
@@ -70,13 +70,12 @@ Amphibian_Captured_Information_old <-
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>%
-  ungroup() %>% 
+  ungroup() %>%
   select(fulcrum_id, observer, observer_other, date, location, start_time, end_time, survey_comments) 
 
 Amphibian_Captured_Information_Repeatable_old <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_f664156f-6c21-4171-9e55-9e6332923dcf/ple_captured_amphibian_information/ple_captured_amphibian_information_captured_amphibian_information.csv') %>%
   group_by(fulcrum_id) %>% 
-  top_n(1, version) %>% 
   select(fulcrum_id, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo) %>%
   mutate(species = NA)
 
@@ -111,20 +110,14 @@ Acoustic_Survey <-
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>% 
-  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time) %>%
-  rbind(., Acoustic_Survey_old)
-
-rm(Acoustic_Survey_old)
+  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time) 
 
 Acoustic_Survey_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_acoustic_survey/ple_acoustic_survey_acoustic_survey.csv') %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   ungroup() %>%
-  select(fulcrum_id, fulcrum_parent_id, species_acoustic, call_index, acoustic_comments) %>%
-  rbind(., Acoustic_Survey_Repeatable_old)
-
-rm(Acoustic_Survey_Repeatable_old)
+  select(fulcrum_id, fulcrum_parent_id, species_acoustic, call_index, acoustic_comments) 
 
 Amphibian_Processing_App <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_amphibian_processing_app/ple_amphibian_processing_app.csv') %>% 
@@ -132,19 +125,13 @@ Amphibian_Processing_App <-
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>%
   ungroup() %>% 
-  select(fulcrum_id, location, date, processor, processor_other, survey_comments) %>%
-  rbind(., Amphibian_Processing_App_old)
-
-rm(Amphibian_Processing_App_old)
+  select(fulcrum_id, location, date, processor, processor_other, survey_comments) 
 
 Amphibian_Processing_App_Repeatable <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_amphibian_processing_app/ple_amphibian_processing_app_amphibian_capture_survey_collections.csv") %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id) %>%
-  rbind(., Amphibian_Processing_App_Repeatable_old) 
-
-rm(Amphibian_Processing_App_Repeatable_old)
+  select(fulcrum_id, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id) 
 
 Amphibian_Survey <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_amphibian_survey/ple_amphibian_survey.csv") %>% 
@@ -152,10 +139,7 @@ Amphibian_Survey <-
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>%
   ungroup() %>%
-  select(location, date, observers, other_observers, edna_water_collected, edna_volume_collected_l, humidity, pressure, elevation, wind_speed_ms, air_temperature_c, dissolved_oxygen, water_temperature_c, conductivity_us, ph, sampling_event_comments) %>%
-  rbind(., Amphibian_Survey_old)
-
-rm(Amphibian_Survey_old)
+  select(location, date, observers, other_observers, edna_water_collected, edna_volume_collected_l, humidity, pressure, elevation, wind_speed_ms, air_temperature_c, dissolved_oxygen, water_temperature_c, conductivity_us, ph, sampling_event_comments) 
 
 Amphibian_Captured_Information <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_captured_amphibian_information/ple_captured_amphibian_information.csv') %>% 
@@ -163,44 +147,30 @@ Amphibian_Captured_Information <-
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>%
   ungroup() %>% 
-  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time, survey_comments) %>%
-  rbind(., Amphibian_Captured_Information_old)
-
-rm(Amphibian_Captured_Information_old)
+  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time, survey_comments)
 
 Amphibian_Captured_Information_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_captured_amphibian_information/ple_captured_amphibian_information_captured_amphibian_information.csv') %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, species, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo) %>%
-  rbind(., Amphibian_Captured_Information_Repeatable_old)
-
-rm(Amphibian_Captured_Information_Repeatable_old)
+  select(fulcrum_id, species, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo) 
 
 VisualEncounter_Survey <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_visual_encounter_survey/ple_visual_encounter_survey.csv")  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time)%>%
-  rbind(., VisualEncounter_Survey_old)
-
-rm(VisualEncounter_Survey_old)
+  select(fulcrum_id, observer, observer_other, date, location, start_time, end_time)
 
 VisualEncounter_Survey_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_visual_encounter_survey/ple_visual_encounter_survey_visual_encounter_information.csv')  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves) %>%
-  rbind(., VisualEncounter_Survey_Repeatable_old)
+  select(fulcrum_id, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves)
 
-rm(VisualEncounter_Survey_Repeatable_old)
 
 CMR_Data <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_39ffec2c-ebf0-4545-8f47-3d78c8f8e905/ple_cmr_data/ple_cmr_data.csv') %>% 
-  select(fulcrum_id, location, species, capture_date, cmr_id, cmr_id_other) %>%
-  rbind(., CMR_Data_old) 
-
-rm(CMR_Data_old)
+  select(fulcrum_id, location, species, capture_date, cmr_id, cmr_id_other) 
 ```
 
 For loop to write all munged data files into new csvs.  This removes all of the extra Fulcrum-related data that is unrelated to the collection data. These files are found in the 'Output' folder. 
