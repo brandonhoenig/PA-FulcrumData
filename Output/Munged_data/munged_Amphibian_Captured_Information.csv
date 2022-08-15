@@ -1,0 +1,85 @@
+"","fulcrum_id","created_at","observer","observer_other","date","location","start_time","end_time","survey_comments"
+"1","9cc76039-e43a-4d91-b910-b95a3f0088f0","2022-05-20 13:35:54 EDT","Emily Jolly",NA,2022-05-20,"Admin Pond",13:28:00,14:37:00,NA
+"2","8322e922-3871-46bf-a73c-2fc4985876ba","2022-05-19 19:31:25 EDT","Emily Jolly",NA,2022-05-19,"Admin Pond",19:31:00,22:59:00,NA
+"3","a71aec87-0564-48a0-bd5b-daa7b4564ed5","2022-05-19 21:08:19 EDT","Brandon Hoenig",NA,2022-05-19,"Admin Pond",20:59:00,22:59:00,NA
+"4","4d89d571-5852-48bd-b8a8-0478c7febd38","2022-05-20 13:30:37 EDT","Brandon Hoenig",NA,2022-05-20,"Admin Pond",13:29:00,14:37:00,NA
+"5","c4f73d97-fbfb-4bfd-a2ab-fcecb286a09c","2022-05-26 21:46:24 EDT","Shane Robertson",NA,2022-05-26,"Wood Lab Pond",21:46:00,21:53:00,NA
+"6","7a980dea-bf83-4def-9194-10c335ae3832","2022-05-26 21:28:30 EDT","Brandon Hoenig",NA,2022-05-26,"Wood Lab Pond",21:17:00,22:57:00,NA
+"7","3470e58d-a7e7-4780-8cb6-333afaa7fa61","2022-05-26 21:20:05 EDT","Emily Jolly",NA,2022-05-26,"Wood Lab Pond",21:20:00,NA,NA
+"8","0779b0a9-2c38-4308-8f9e-8acaa28bba41","2022-05-27 21:06:12 EDT","Shane Robertson",NA,2022-05-27,"Wood Lab Pond",21:06:00,22:11:00,NA
+"9","1a457ca2-d3d6-41c4-a69e-3e14190fd966","2022-05-27 20:57:11 EDT","Emily Jolly",NA,2022-05-27,"Wood Lab Pond",20:57:00,22:09:00,NA
+"10","e7acbc0b-f947-4246-b907-1d0389906d8e","2022-05-27 20:56:57 EDT","Brandon Hoenig",NA,2022-05-27,"Wood Lab Pond",20:57:00,22:08:00,"Rain began at 9:58. Tried to catch more but rain too hard to tell eye shine from water droplet."
+"11","080fd78e-2010-4b2e-8ffd-ebff0da31da8","2022-05-28 10:47:48 EDT","Emily Jolly",NA,2022-05-28,"Wood Lab Pond",10:47:00,11:43:00,NA
+"12","57104ba3-a7a4-446f-850a-b687fcd724b7","2022-05-28 10:51:08 EDT","Shane Robertson",NA,2022-05-28,"Wood Lab Pond",10:51:00,11:44:00,NA
+"13","6c76406f-d2da-4cdd-8239-ae398d8a650d","2022-05-28 10:43:38 EDT","Brandon Hoenig",NA,2022-05-28,"Wood Lab Pond",10:43:00,11:43:00,NA
+"14","7b822f7f-b74b-4db3-af7e-c9910cfc86b8","2022-06-03 21:25:28 EDT","Brandon Hoenig",NA,2022-06-03,"Phelps Pond",21:25:00,23:02:00,NA
+"15","2448adff-c955-4817-a758-4f90ba776fb7","2022-06-03 21:25:35 EDT","Emily Jolly",NA,2022-06-03,"Phelps Pond",21:25:00,23:03:00,NA
+"16","34786ec9-ea57-42ef-abe8-ecb1923fa45e","2022-06-03 21:35:53 EDT","Shane Robertson",NA,2022-06-03,"Phelps Pond",21:35:00,23:10:00,NA
+"17","a5e89567-64b4-4e4e-9fff-47ab20dc9cf9","2022-06-04 21:09:38 EDT","Brandon Hoenig",NA,2022-06-04,"Phelps Pond",21:09:00,22:57:00,NA
+"18","581137d2-2a8f-49d2-aef0-857482ed695e","2022-06-04 21:09:51 EDT","Shane Robertson",NA,2022-06-04,"Phelps Pond",21:10:00,22:58:00,NA
+"19","0428db50-7fcd-4a75-a118-969172dd4c69","2022-06-04 21:09:39 EDT","Emily Jolly",NA,2022-06-04,"Phelps Pond",21:09:00,22:57:00,NA
+"20","5912bc58-9ead-48aa-9a5c-f236f7acf0e3","2022-06-05 10:40:25 EDT","Emily Jolly",NA,2022-06-05,"Phelps Pond",10:40:00,11:20:00,"Conifer forests"
+"21","3e67099f-d43b-4546-8383-f106c2d4bf46","2022-06-05 11:20:20 EDT","Shane Robertson",NA,2022-06-05,"Phelps Pond",10:48:00,11:20:00,"Coniferous leaf litter. No captures"
+"22","4befc5ba-ee56-431b-b6cd-767ada39ae95","2022-06-05 10:48:47 EDT","Brandon Hoenig",NA,2022-06-05,"Phelps Pond",10:48:00,11:19:00,"Conifer forest. Walked entire area with no sightings.  Frogs skiddish and jumped into water when 15+ feet away."
+"23","97f1677a-f2aa-4aac-9ec5-6a724170a3dd","2022-06-07 21:03:47 EDT","Brandon Hoenig",NA,2022-06-07,"RV Pond",21:25:00,23:07:00,NA
+"24","3e443347-f233-4748-9595-6c9d63f7ab76","2022-06-07 21:14:11 EDT","Myah Madril",NA,2022-06-07,"RV Pond",21:22:00,02:12:00,NA
+"25","61724611-2e12-4b06-b616-4ef5c0f365fa","2022-06-07 21:15:19 EDT","Emily Jolly",NA,2022-06-07,"RV Pond",21:22:00,23:22:00,NA
+"26","d1ea6d9b-d4c4-49c6-a702-1f4e04f715df","2022-06-08 21:11:23 EDT","Emily Jolly",NA,2022-06-08,"RV Pond",21:11:00,22:02:00,NA
+"27","8c55caf3-1b46-4a07-978c-a14f3c218aad","2022-06-08 21:10:21 EDT","Brandon Hoenig",NA,2022-06-08,"RV Pond",21:11:00,22:02:00,"Stopped bc heard thunder"
+"28","6ea9b638-35c3-4037-9c8e-ceac2a1b86af","2022-06-09 10:41:53 EDT","Sydney Dawson",NA,2022-06-09,"RV Pond",10:42:00,11:07:00,"Walked perimeter of pond; no salamanders sited; frogs jumped int water upon approach"
+"29","150f01ae-99cf-4426-9f1b-45b95142991f","2022-06-09 10:33:54 EDT","Emily Jolly",NA,2022-06-09,"RV Pond",10:34:00,11:07:00,"Walked parameter of pond, no salamanders sighted,  frogs into water upon approach"
+"30","51f233ba-6e22-4a55-b538-c401e39bd1bd","2022-06-09 10:33:57 EDT","Myah Madril",NA,2022-06-09,"RV Pond",10:34:00,11:07:00,"walked perimeter of pond, no salamanders spotted, frogs into water upon approach"
+"31","1f6f8ab2-c0ad-4cf7-8317-c73ba5aacd7e","2022-06-09 10:42:23 EDT","Brandon Hoenig",NA,2022-06-09,"RV Pond",10:42:00,11:07:00,"Walked perimeter of pond. No salamdera sighted. Frogs into water upon approach."
+"32","89cddac1-e088-4066-9f9b-b4ea808a4292","2022-06-08 21:11:41 EDT","Myah Madril",NA,2022-06-08,"RV Pond",21:11:00,22:03:00,NA
+"33","90bf7590-701f-4ecb-8d9a-1d7b2c2d8e39","2022-06-08 21:11:27 EDT","Sydney Dawson",NA,2022-06-08,"RV Pond",21:11:00,22:02:00,NA
+"34","ff15a928-5a5a-4152-80af-f85fb00372ea","2022-06-14 21:43:57 EDT","Sydney Dawson",NA,2022-06-14,"Tuttle Pond",21:44:00,22:47:00,NA
+"35","20434282-9af9-494b-b0d9-eca2ce0aad30","2022-06-14 23:02:07 EDT","Sydney Dawson",NA,2022-06-14,"Tuttle Pond",23:02:00,23:27:00,NA
+"36","e3e8dd66-a6a5-4d03-996a-312c14d8a1cc","2022-06-14 23:01:02 EDT","Myah Madril",NA,2022-06-14,"Tuttle Pond",23:01:00,23:28:00,NA
+"37","840f5e78-65f2-4bc7-9994-b9a028372010","2022-06-14 21:43:51 EDT","Myah Madril",NA,2022-06-14,"Tuttle Pond",21:44:00,22:46:00,NA
+"38","770e0de1-30cb-4594-83ba-c0ca3c2d6efd","2022-06-15 21:58:49 EDT","Sydney Dawson",NA,2022-06-15,"Tuttle Pond",21:58:00,23:32:00,NA
+"39","26cce113-c768-419c-b48e-b4febce843bd","2022-06-15 21:58:12 EDT","Myah Madril",NA,2022-06-15,"Tuttle Pond",21:58:00,23:32:00,NA
+"40","2e14c9a7-cf87-445f-abc4-3b7a22259efc","2022-06-14 23:01:52 EDT","Emily Jolly",NA,2022-06-14,"Tuttle Pond",23:01:00,23:28:00,NA
+"41","32ab862e-0abc-4024-87c4-431ec502f31e","2022-06-14 21:44:04 EDT","Emily Jolly",NA,2022-06-14,"Tuttle Pond",21:44:00,22:47:00,NA
+"42","a30d215b-c546-4f8a-b435-f3d471e382fc","2022-06-15 21:58:12 EDT","Emily Jolly",NA,2022-06-15,"Tuttle Pond",21:58:00,23:31:00,NA
+"43","acd97094-7bea-4b96-b0dd-ae6063700126","2022-06-16 10:34:32 EDT","Myah Madril",NA,2022-06-16,"Tuttle Pond",10:34:00,10:56:00,NA
+"44","1f1c228c-38a4-4343-80a7-0bd668cad4cd","2022-06-16 10:34:28 EDT","Sydney Dawson",NA,2022-06-16,"Tuttle Pond",10:34:00,10:55:00,NA
+"45","cdea43be-55a5-4144-8600-054380758627","2022-06-14 21:40:48 EDT","Brandon Hoenig",NA,2022-06-14,"Tuttle Pond",21:35:00,22:47:00,"Ended at 10:47 to refill bags."
+"46","71b55b1d-8ca8-4203-9c66-306cf143fa1d","2022-06-14 22:59:41 EDT","Brandon Hoenig",NA,2022-06-14,"Tuttle Pond",22:59:00,23:29:00,"Restarted after reloading bags."
+"47","17b611f6-b34e-42df-980f-bdd8f8a6b60d","2022-06-15 21:58:16 EDT","Brandon Hoenig",NA,2022-06-15,"Tuttle Pond",22:02:00,23:32:00,NA
+"48","10eaf46c-a1b2-475c-abb2-a731fe9c56fe","2022-06-22 10:58:17 EDT","Sydney Dawson",NA,2022-06-22,"Tryon-Weber",10:58:00,12:12:00,NA
+"49","d01c80c8-5ad8-41f5-83cd-c3d95b9c0c92","2022-06-22 11:07:35 EDT",NA,NA,2022-06-22,"Tryon-Weber",10:55:00,12:12:00,"Walked up the transect in the stream and walked on the periphery of the stream on the way back down the stream."
+"50","a1d71b63-9f73-42cc-abd6-1af335983b77","2022-06-22 10:50:08 EDT","Myah Madril",NA,2022-06-22,"Tryon-Weber",10:50:00,12:12:00,NA
+"51","4b741286-ed7a-4891-9de3-7785e6699224","2022-06-16 10:34:21 EDT","Emily Jolly",NA,2022-06-16,"Tuttle Pond",10:34:00,10:55:00,NA
+"52","581323a5-f714-40c7-9b0c-5e7828f52fc9","2022-06-22 10:49:51 EDT","Emily Jolly",NA,2022-06-22,"Tryon-Weber",10:49:00,12:13:00,NA
+"53","fa19de46-1320-4f13-a462-a7006315e753","2022-06-23 11:01:35 EDT","Myah Madril",NA,2022-06-23,"Tryon-Weber",10:40:00,12:33:00,NA
+"54","766a2488-9d6e-4a48-b25b-411607c31c21","2022-06-23 11:01:37 EDT","Sydney Dawson",NA,2022-06-23,"Tryon-Weber",10:40:00,12:33:00,NA
+"55","972b35f7-eacb-4341-8891-b698ae311450","2022-06-23 11:01:16 EDT","Emily Jolly",NA,2022-06-23,"Tryon-Weber",11:01:00,12:33:00,NA
+"56","ff48d14e-527b-4afb-86e7-d8d61bc3ba44","2022-06-23 21:48:22 EDT","Myah Madril",NA,2022-06-23,"Tryon-Weber",21:48:00,22:27:00,NA
+"57","b5c38e5b-cfcc-48a9-ab04-70251830799a","2022-06-23 21:48:25 EDT","Sydney Dawson",NA,2022-06-23,"Tryon-Weber",21:48:00,22:27:00,NA
+"58","8e7780ba-62bc-4d0a-a4ae-e9b5354e7e0d","2022-06-23 21:48:22 EDT","Emily Jolly",NA,2022-06-23,"Tryon-Weber",21:48:00,22:27:00,NA
+"59","89c1dc52-3406-4051-b721-a7c40118db14","2022-06-23 21:47:32 EDT","Brandon Hoenig",NA,2022-06-23,"Tryon-Weber",21:47:00,22:27:00,"Walked stream upward then came back down along banks."
+"60","02cea601-632a-42dc-aa4b-7f9fea21a600","2022-06-27 22:34:45 EDT","Myah Madril",NA,2022-06-27,"Vorisek Pond",22:34:00,23:58:00,NA
+"61","c65135ec-e688-4ba7-b8b1-0f9a19dd76d9","2022-06-27 22:34:46 EDT","Brandon Hoenig",NA,2022-06-27,"Vorisek Pond",22:34:00,23:58:00,"Small pond near vorisek home but Not the wood frog pond"
+"62","7beba714-601b-4d69-8eb1-bff2a963cce1","2022-06-27 22:34:46 EDT","Sydney Dawson",NA,2022-06-27,"Vorisek Pond",22:34:00,23:58:00,NA
+"63","27b1d4ac-6b7c-43c7-89af-6965365cddcf","2022-06-28 21:36:27 EDT","Sydney Dawson",NA,2022-06-28,"Vorisek Pond",21:41:00,NA,NA
+"64","0137a945-bbeb-4cde-a7de-4d7bc633ee93","2022-06-28 21:39:51 EDT","Brandon Hoenig",NA,2022-06-28,"Vorisek Pond",21:39:00,23:09:00,NA
+"65","25583025-1f0b-48ff-844f-1268a9e265ef","2022-06-28 21:39:48 EDT","Myah Madril",NA,2022-06-28,"Vorisek Pond",21:39:00,23:09:00,NA
+"66","7d085eb9-37bb-4702-8003-2182edbc5ef5","2022-07-11 22:12:04 EDT","Sydney Dawson",NA,2022-07-11,"RV Pond",22:12:00,00:04:00,"Was difficult to catch frogs, especially bullfrogs , jumped right away"
+"67","7bef52fb-fde7-4b76-b897-a00f274efeda","2022-07-11 21:16:50 EDT","Myah Madril",NA,2022-07-11,"RV Pond",22:12:00,00:04:00,NA
+"68","407620a8-e3e5-47d3-ac57-65a9cf679dbe","2022-07-11 22:04:13 EDT","Brandon Hoenig",NA,2022-07-11,"RV Pond",22:04:00,00:04:00,"Well over 200 frogs. Basically impossible to catch. Very skiddish within 5 feet"
+"69","25c009c3-05d4-4fbd-864c-68544a262c5d","2022-07-12 22:02:58 EDT","Myah Madril",NA,2022-07-12,"RV Pond",22:03:00,00:00:00,NA
+"70","5ae59801-0b8d-4a90-9fb3-eb58aaff28bb","2022-07-12 22:00:31 EDT","Brandon Hoenig",NA,2022-07-12,"RV Pond",22:00:00,00:00:00,"Bullfrogs extremely skiddish   Can’t get within 5 feet."
+"71","95afd2e6-ba94-4d95-a431-e7aff7d57783","2022-07-11 22:04:29 EDT",NA,"Rachel Verdi",2022-07-11,"RV Pond",22:04:00,00:04:00,NA
+"72","577797b6-5fab-435a-8b95-d208515693f9","2022-07-12 23:30:02 EDT",NA,"Rachel Verdi",2022-07-12,"RV Pond",22:06:00,NA,NA
+"73","fe849c34-ee58-4b2e-bc51-cd0bc2c83f78","2022-07-12 22:06:39 EDT","Sydney Dawson",NA,2022-07-12,"RV Pond",22:06:00,23:59:00,NA
+"74","2eb85220-9e03-4057-80fa-4d3b02b149f7","2022-07-18 21:58:37 EDT",NA,"Rachel Verdi",2022-07-18,"Tuttle Pond",21:58:00,23:42:00,NA
+"75","8f1bd867-9752-4d46-947f-deaec8b78153","2022-07-18 21:58:24 EDT","Sydney Dawson",NA,2022-07-18,"Tuttle Pond",21:58:00,NA,NA
+"76","7094f411-f225-4370-a516-b630ee60038d","2022-07-19 21:35:56 EDT","Sydney Dawson",NA,2022-07-19,"Tuttle Pond",21:36:00,22:04:00,NA
+"77","fe20302d-45ed-4506-ba58-8d613d69ef12","2022-07-19 21:31:49 EDT","Myah Madril",NA,2022-07-19,"Tuttle Pond",21:31:00,22:36:00,NA
+"78","b18aecb6-cf59-46bc-93ad-75e85a0e3bb7","2022-07-18 21:58:31 EDT","Myah Madril",NA,2022-07-18,"Tuttle Pond",21:58:00,23:41:00,NA
+"79","dd885890-35bb-4241-99a6-344d83d2eea2","2022-07-19 21:35:08 EDT",NA,"Rachel Verdi",2022-07-19,"Tuttle Pond",21:35:00,22:07:00,NA
+"80","9cc76039-e43a-4d91-b910-b95a3f0088f0","2022-05-20 17:35:54 UTC","Emily Jolly",NA,2022-05-20,"Admin Pond",13:28:00,14:37:00,NA
+"81","8322e922-3871-46bf-a73c-2fc4985876ba","2022-05-19 23:31:25 UTC","Emily Jolly",NA,2022-05-19,"Admin Pond",19:31:00,22:59:00,NA
+"82","a71aec87-0564-48a0-bd5b-daa7b4564ed5","2022-05-20 01:08:19 UTC","Brandon Hoenig",NA,2022-05-19,"Admin Pond",20:59:00,22:59:00,NA
+"83","4d89d571-5852-48bd-b8a8-0478c7febd38","2022-05-20 17:30:37 UTC","Brandon Hoenig",NA,2022-05-20,"Admin Pond",13:29:00,14:37:00,NA
+"84","c4f73d97-fbfb-4bfd-a2ab-fcecb286a09c","2022-05-27 01:46:24 UTC","Shane Robertson",NA,2022-05-26,"Wood Lab Pond",21:46:00,21:53:00,NA
