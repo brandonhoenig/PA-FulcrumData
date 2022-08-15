@@ -1,24 +1,27 @@
 "","fulcrum_id","created_at","fulcrum_parent_id","species_acoustic","call_index","acoustic_comments"
-"1","783fdfe3-2754-4467-981a-f26a01535759","2022-05-26 20:53:41 EDT","8ef7dd22-e2d7-4452-b1c6-a928de38c95b","Unknown","1 - Individuals can be counted, space between calls","Small croak as it entered water."
-"2","8fdd8012-5435-480b-b8ba-2fe4a647d4fb","2022-05-26 20:54:42 EDT","8ef7dd22-e2d7-4452-b1c6-a928de38c95b","Rana clamitans","1 - Individuals can be counted, space between calls","Small croak"
-"3","c9215298-e012-4752-a81a-184d5fa41891","2022-05-27 20:39:12 EDT","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana catesbeiana","0 - Species visible but no vocalization",NA
-"4","41175d1e-6661-44b9-b1db-965f97d27f99","2022-05-27 20:39:28 EDT","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana clamitans","0 - Species visible but no vocalization",NA
-"5","c9215298-e012-4752-a81a-184d5fa41891","2022-05-27 20:39:12 EDT","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana catesbeiana","0 - Species visible but no vocalization",NA
-"6","41175d1e-6661-44b9-b1db-965f97d27f99","2022-05-27 20:39:28 EDT","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana clamitans","0 - Species visible but no vocalization",NA
-"7","88080309-72bd-431d-908b-7bcc2a749edd","2022-06-03 20:44:34 EDT","814e9e84-a643-4d9b-8932-8883b1b89977","Rana clamitans","1 - Individuals can be counted, space between calls",NA
-"8","c4ed235e-7c76-4faf-a713-6206d4bdd01f","2022-06-03 20:45:04 EDT","814e9e84-a643-4d9b-8932-8883b1b89977","Unknown","1 - Individuals can be counted, space between calls","Squirrelly call. Sounds like a smaller amphibian.  Possible Leonora frog?"
-"9","026a6c6f-6135-4d29-b147-fc55fc5f334a","2022-06-08 21:00:26 EDT","faba6935-0010-4b45-92e5-efdbd99ad514","Hyla versicolor","3 - Full chorus, calls are constant and overlapping",NA
-"10","6cdba486-80e7-44b0-b1b0-22fc47f62252","2022-06-08 21:00:39 EDT","faba6935-0010-4b45-92e5-efdbd99ad514","Rana catesbeiana","1 - Individuals can be counted, space between calls",NA
-"11","6928093e-a3f1-4c73-adf9-7a96916bec40","2022-06-08 21:00:56 EDT","faba6935-0010-4b45-92e5-efdbd99ad514","Rana clamitans","1 - Individuals can be counted, space between calls",NA
-"12","953ab45d-816a-4d4e-bfa3-0bda8e0d648d","2022-06-14 21:07:24 EDT","8b34a76b-f7a4-499e-b25d-91f48d11570a","Hyla versicolor","3 - Full chorus, calls are constant and overlapping",NA
-"13","ad16126e-f34d-49d1-b4e8-9b7707c0e744","2022-06-14 21:07:41 EDT","8b34a76b-f7a4-499e-b25d-91f48d11570a","Rana catesbeiana","2 - Individuals can be counted, overlapping calls",NA
-"14","774348b6-acec-4e66-97bc-8ca86a584692","2022-06-14 21:08:24 EDT","8b34a76b-f7a4-499e-b25d-91f48d11570a","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
-"15","6a850777-7376-4928-a344-ba6cfeb90b87","2022-06-15 21:29:27 EDT","fd7ac345-b879-4044-bb19-13b88e6123ef","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
-"16","e2af2d89-116c-4114-a0ca-d0e826e6bbfd","2022-06-15 21:30:48 EDT","fd7ac345-b879-4044-bb19-13b88e6123ef","Hyla versicolor","1 - Individuals can be counted, space between calls",NA
-"17","c6b4b644-9d78-4f5c-b50b-eaeee538219d","2022-06-15 21:30:56 EDT","fd7ac345-b879-4044-bb19-13b88e6123ef","Rana catesbeiana","1 - Individuals can be counted, space between calls",NA
-"18","114364ec-f2e3-4acf-bd72-8cdb33ffc30a","2022-06-23 21:43:53 EDT","0fe89c3c-63de-4460-95dd-c638d9dd22ff","Rana clamitans","0 - Species visible but no vocalization",NA
-"19","0bc78c2a-930e-4b5d-85a2-7130181bc726","2022-06-23 21:44:12 EDT","0fe89c3c-63de-4460-95dd-c638d9dd22ff","Rana sylvatica","0 - Species visible but no vocalization",NA
-"20","afe89595-406e-4429-994f-6e2ebb5be3c9","2022-06-27 22:07:37 EDT","7f9d7b67-87af-4ed8-8058-ef85b5c74b4d","Rana clamitans","0 - Species visible but no vocalization",NA
-"21","69bbe2df-b00e-471f-925b-0f47e5376116","2022-06-27 22:07:49 EDT","7f9d7b67-87af-4ed8-8058-ef85b5c74b4d","Rana catesbeiana","1 - Individuals can be counted, space between calls","Single call"
-"22","5a73ec09-d7b0-4af5-8378-8947e2a9bdc9","2022-07-11 21:34:24 EDT","486b67fa-c0d5-4390-ba0d-512746cd865d","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
-"23","5e6863e9-50f1-46c3-b8f7-fae28e067b9e","2022-07-11 21:35:15 EDT","486b67fa-c0d5-4390-ba0d-512746cd865d","Rana catesbeiana","2 - Individuals can be counted, overlapping calls",NA
+"1","783fdfe3-2754-4467-981a-f26a01535759","2022-05-27 00:53:41 UTC","8ef7dd22-e2d7-4452-b1c6-a928de38c95b","Unknown","1 - Individuals can be counted, space between calls","Small croak as it entered water."
+"2","8fdd8012-5435-480b-b8ba-2fe4a647d4fb","2022-05-27 00:54:42 UTC","8ef7dd22-e2d7-4452-b1c6-a928de38c95b","Rana clamitans","1 - Individuals can be counted, space between calls","Small croak"
+"3","c9215298-e012-4752-a81a-184d5fa41891","2022-05-28 00:39:12 UTC","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana catesbeiana","0 - Species visible but no vocalization",NA
+"4","41175d1e-6661-44b9-b1db-965f97d27f99","2022-05-28 00:39:28 UTC","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana clamitans","0 - Species visible but no vocalization",NA
+"5","c9215298-e012-4752-a81a-184d5fa41891","2022-05-28 00:39:12 UTC","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana catesbeiana","0 - Species visible but no vocalization",NA
+"6","41175d1e-6661-44b9-b1db-965f97d27f99","2022-05-28 00:39:28 UTC","35f6ccd7-8a1a-4e7b-b275-30186f67c67c","Rana clamitans","0 - Species visible but no vocalization",NA
+"7","88080309-72bd-431d-908b-7bcc2a749edd","2022-06-04 00:44:34 UTC","814e9e84-a643-4d9b-8932-8883b1b89977","Rana clamitans","1 - Individuals can be counted, space between calls",NA
+"8","c4ed235e-7c76-4faf-a713-6206d4bdd01f","2022-06-04 00:45:04 UTC","814e9e84-a643-4d9b-8932-8883b1b89977","Unknown","1 - Individuals can be counted, space between calls","Squirrelly call. Sounds like a smaller amphibian.  Possible Leonora frog?"
+"9","026a6c6f-6135-4d29-b147-fc55fc5f334a","2022-06-09 01:00:26 UTC","faba6935-0010-4b45-92e5-efdbd99ad514","Hyla versicolor","3 - Full chorus, calls are constant and overlapping",NA
+"10","6cdba486-80e7-44b0-b1b0-22fc47f62252","2022-06-09 01:00:39 UTC","faba6935-0010-4b45-92e5-efdbd99ad514","Rana catesbeiana","1 - Individuals can be counted, space between calls",NA
+"11","6928093e-a3f1-4c73-adf9-7a96916bec40","2022-06-09 01:00:56 UTC","faba6935-0010-4b45-92e5-efdbd99ad514","Rana clamitans","1 - Individuals can be counted, space between calls",NA
+"12","953ab45d-816a-4d4e-bfa3-0bda8e0d648d","2022-06-15 01:07:24 UTC","8b34a76b-f7a4-499e-b25d-91f48d11570a","Hyla versicolor","3 - Full chorus, calls are constant and overlapping",NA
+"13","ad16126e-f34d-49d1-b4e8-9b7707c0e744","2022-06-15 01:07:41 UTC","8b34a76b-f7a4-499e-b25d-91f48d11570a","Rana catesbeiana","2 - Individuals can be counted, overlapping calls",NA
+"14","774348b6-acec-4e66-97bc-8ca86a584692","2022-06-15 01:08:24 UTC","8b34a76b-f7a4-499e-b25d-91f48d11570a","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
+"15","6a850777-7376-4928-a344-ba6cfeb90b87","2022-06-16 01:29:27 UTC","fd7ac345-b879-4044-bb19-13b88e6123ef","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
+"16","e2af2d89-116c-4114-a0ca-d0e826e6bbfd","2022-06-16 01:30:48 UTC","fd7ac345-b879-4044-bb19-13b88e6123ef","Hyla versicolor","1 - Individuals can be counted, space between calls",NA
+"17","c6b4b644-9d78-4f5c-b50b-eaeee538219d","2022-06-16 01:30:56 UTC","fd7ac345-b879-4044-bb19-13b88e6123ef","Rana catesbeiana","1 - Individuals can be counted, space between calls",NA
+"18","114364ec-f2e3-4acf-bd72-8cdb33ffc30a","2022-06-24 01:43:53 UTC","0fe89c3c-63de-4460-95dd-c638d9dd22ff","Rana clamitans","0 - Species visible but no vocalization",NA
+"19","0bc78c2a-930e-4b5d-85a2-7130181bc726","2022-06-24 01:44:12 UTC","0fe89c3c-63de-4460-95dd-c638d9dd22ff","Rana sylvatica","0 - Species visible but no vocalization",NA
+"20","afe89595-406e-4429-994f-6e2ebb5be3c9","2022-06-28 02:07:37 UTC","7f9d7b67-87af-4ed8-8058-ef85b5c74b4d","Rana clamitans","0 - Species visible but no vocalization",NA
+"21","69bbe2df-b00e-471f-925b-0f47e5376116","2022-06-28 02:07:49 UTC","7f9d7b67-87af-4ed8-8058-ef85b5c74b4d","Rana catesbeiana","1 - Individuals can be counted, space between calls","Single call"
+"22","5a73ec09-d7b0-4af5-8378-8947e2a9bdc9","2022-07-12 01:34:24 UTC","486b67fa-c0d5-4390-ba0d-512746cd865d","Rana clamitans","2 - Individuals can be counted, overlapping calls",NA
+"23","5e6863e9-50f1-46c3-b8f7-fae28e067b9e","2022-07-12 01:35:15 UTC","486b67fa-c0d5-4390-ba0d-512746cd865d","Rana catesbeiana","2 - Individuals can be counted, overlapping calls",NA
+"24","8685b863-6e9f-4ad4-971b-d97cef28cfef","2022-07-19 01:26:26 UTC","dba61501-50f2-48b3-88cd-5b5de5ed8ef0","Rana clamitans","3 - Full chorus, calls are constant and overlapping",NA
+"25","3ee1d0d8-04dd-43f2-a302-9ca013584cb6","2022-07-19 01:26:51 UTC","dba61501-50f2-48b3-88cd-5b5de5ed8ef0","Hyla versicolor","1 - Individuals can be counted, space between calls",NA
+"26","e7a3198d-3dda-4f72-9784-964329aca243","2022-07-19 01:26:59 UTC","dba61501-50f2-48b3-88cd-5b5de5ed8ef0","Rana catesbeiana","0 - Species visible but no vocalization",NA

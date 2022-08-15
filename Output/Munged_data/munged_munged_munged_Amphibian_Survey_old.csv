@@ -1,0 +1,9 @@
+"","X.1","X","location","fulcrum_id","created_at","date","observers","other_observers","humidity","pressure","elevation","wind_speed_ms","air_temperature_c","dissolved_oxygen","water_temperature_c","conductivity_us","ph","sampling_event_comments","edna_volume_collected_l","edna_water_collected"
+"1",1,1,"Phelps Pond","81918035-8727-4979-ae70-dd9eb29b3676","2022-05-06 00:32:22 UTC","2022-05-05","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,0.3,13,NA,14.8,76.1,NA,NA,NA,NA
+"2",2,2,"Admin Pond","3334ebd7-54c0-4e18-a80c-abb313f185f1","2022-05-12 00:40:09 UTC","2022-05-11","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,0.4,19.6,NA,20.5,29.3,NA,"pH 7.65",NA,NA
+"3",3,3,"RV Pond","b40a6235-d3a6-498b-8cad-5845d07c5378","2022-05-13 00:26:02 UTC","2022-05-12","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,0.5,23.5,NA,24,76.6,6.44,NA,NA,NA
+"4",4,4,"Admin Pond","0f868ee9-f2cf-46f2-93c2-fdaa780b3bef","2022-05-20 00:55:56 UTC","2022-05-19","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,1,22.2,NA,19.5,42.1,6.95,NA,NA,NA
+"5",5,5,"Admin Pond","dfaf9677-e878-48ec-96a3-4e92f6af433a","2022-05-19 00:20:30 UTC","2022-05-18","Brandon Hoenig,Cori Richards-Zawacki,Emily Jolly",NA,NA,NA,NA,0.5,12.1,NA,12.8,37.1,7.26,NA,NA,NA
+"6",6,6,"Wood Lab Pond","4283096b-b956-4501-974c-3bd729831d91","2022-05-05 00:51:40 UTC","2022-05-04","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,NA,12.8,NA,13,NA,NA,"Used multimeter for air temp.  Ph is 6.28",NA,NA
+"7",7,7,"Admin Pond","51aa8925-2742-4c94-8d52-73a9d3642fc0","2022-05-20 17:22:56 UTC","2022-05-20","Brandon Hoenig,Emily Jolly",NA,NA,NA,NA,2.2,19.4,NA,18.9,42.9,6.97,NA,NA,NA
+"8",8,8,"Wood Lab Pond","9aad4a3b-4e6e-4328-a845-32a7f1f2fe69","2022-05-27 00:31:47 UTC","2022-05-26","Brandon Hoenig,Emily Jolly,Shane Robertson",NA,NA,NA,NA,0,23.6,NA,19.2,32.2,5.79,NA,NA,NA
