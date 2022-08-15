@@ -70,7 +70,7 @@ by = c('location', 'date', 'bag_id')
 ) %>%
   arrange(created_at.y.x) %>%
   mutate_at(vars(bd_swab_tube_id:toe_clip_tube_id), funs(replace(., duplicated(.), NA))) %>%
-  select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex, bd_swab_tube_id:toe_clip_tube_id) %>% view()
+  select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex, bd_swab_tube_id:toe_clip_tube_id) 
 ```
 
 
