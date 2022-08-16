@@ -61,7 +61,10 @@ by = c('location', 'date', 'bag_id')
 
 Merge Acoustic Surveys
 ```{r}
-munged_Acoustic_Survey_Repeatable %>% view()
+merged_AcousticSurvey <-
+left_join(munged_Acoustic_Survey, munged_Acoustic_Survey_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')) %>%
+  select(observer, date, location, start_time, end_time, species_acoustic, call_index, acoustic_comments) %>%
+  unique() %>% view()
 ```
 
 
@@ -69,6 +72,8 @@ Write merged files
 ```{r}
 
 write_csv(merged_VisualEncounterSurvey, 'Output/Merged_Data/merged_VisualEncounterSurvey.csv')
+
+write_csv(merged_AcousticSurvey, 'Output/Merged_Data/merged_AcousticSurvey.csv')
 
 write_csv(merged_AmphibianCaptureSurvey, 'Output/Merged_Data/merged_AmphibianCaptureSurvey.csv')
 ```
