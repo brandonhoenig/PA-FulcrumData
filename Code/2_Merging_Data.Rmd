@@ -46,11 +46,11 @@ Merge Amphibian Capture Survey with Amphibian Processing App
 
 merged_AmphibianCaptureSurvey <-
   
-left_join(
+right_join(
 
-left_join(munged_Amphibian_Captured_Information, munged_Amphibian_Captured_Information_Repeatable %>% unique(), by = c("fulcrum_id" = "fulcrum_parent_id")),
+right_join(munged_Amphibian_Captured_Information, munged_Amphibian_Captured_Information_Repeatable %>% unique(), by = c("fulcrum_id" = "fulcrum_parent_id")),
 
-left_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')),
+right_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')),
 by = c('location', 'date', 'bag_id')
 
 ) %>% 
