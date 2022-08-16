@@ -46,17 +46,17 @@ Merge Amphibian Capture Survey with Amphibian Processing App
 
 merged_AmphibianCaptureSurvey <-
   
-right_join(
+left_join(
 
-right_join(munged_Amphibian_Captured_Information, munged_Amphibian_Captured_Information_Repeatable, by = c("fulcrum_id" = "fulcrum_parent_id")),
+left_join(munged_Amphibian_Captured_Information, munged_Amphibian_Captured_Information_Repeatable %>% unique(), by = c("fulcrum_id" = "fulcrum_parent_id")),
 
-right_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')),
+left_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repeatable, by = c('fulcrum_id' = 'fulcrum_parent_id')),
 by = c('location', 'date', 'bag_id')
 
 ) %>% 
   arrange(created_at.y.x) %>%
   mutate_at(vars(bd_swab_tube_id:toe_clip_tube_id), funs(replace(., duplicated(.), NA))) %>%
-  select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex, bd_swab_tube_id:toe_clip_tube_id, capture_comments) %>% unique()
+  select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex, bd_swab_tube_id:toe_clip_tube_id, capture_comments) %>% unique() 
 ```
 
 Merge Acoustic Surveys
