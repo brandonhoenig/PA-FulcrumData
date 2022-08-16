@@ -185,9 +185,6 @@ CMR_Data <-
   bind_rows(CMR_Data_old)
 ```
 
-```{r}
-
-```
 
 For loop to write all munged data files into new csvs.  This removes all of the extra Fulcrum-related data that is unrelated to the collection data. These files are found in the 'Output' folder. 
 ```{r}
