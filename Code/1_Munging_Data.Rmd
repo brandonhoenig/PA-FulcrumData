@@ -40,7 +40,8 @@ Amphibian_Processing_App_Repeatable_old <-
              antibody_id_2 = NA, 
              antibody_id_3 = NA,
              antibody_id_4 = NA,
-             crispr_swab_tube_id = NA) %>%
+             crispr_swab_tube_id = NA,
+             dry_swab_tube_id = NA) %>%
   select(fulcrum_id, created_at, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, crispr_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id, capture_comments, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature) %>% unique()
 
 Amphibian_Survey_old <-
@@ -106,8 +107,8 @@ Amphibian_Processing_App <-
 Amphibian_Processing_App_Repeatable <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_amphibian_processing_app/ple_amphibian_processing_app_amphibian_capture_survey_collections.csv") %>%
   group_by(fulcrum_id) %>% 
-  top_n(1, version) %>% 
-  select(fulcrum_id, created_at, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, crispr_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id) %>%
+  top_n(1, version) %>% view()
+  select(fulcrum_id, created_at, fulcrum_parent_id, created_at, bag_id, species_capture, species_capture_other, capture_type, capture_type_other, capture_mark_recapture, life_stage, life_stage_other, sex, sex_other, snout_vent_length, body_and_bag_mass, bag_mass, body_mass, bd_swab_tube_id, dry_swab_tube_id, crispr_swab_tube_id, bacterial_swab_tube_id, mucusome_id, amp_id_1, amp_id_2, amp_id_3, amp_id_4, antibody_id_1, antibody_id_2, antibody_id_3, antibody_id_4, toe_clip_tube_id) %>%
   bind_rows(Amphibian_Processing_App_Repeatable_old) %>% unique()
 
 Amphibian_Survey <-
