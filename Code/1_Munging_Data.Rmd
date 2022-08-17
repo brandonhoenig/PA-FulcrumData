@@ -85,16 +85,14 @@ Acoustic_Survey <-
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   filter(change_type != 'delete') %>% 
-  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) %>%
-  bind_rows(., Acoustic_Survey_old) %>% unique()
+  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) %>% unique()
 
 Acoustic_Survey_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_acoustic_survey/ple_acoustic_survey_acoustic_survey.csv') %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   ungroup() %>%
-  select(fulcrum_id, created_at, fulcrum_parent_id, species_acoustic, call_index, acoustic_comments) %>%
-  bind_rows(., Acoustic_Survey_Repeatable_old) %>% unique()
+  select(fulcrum_id, created_at, fulcrum_parent_id, species_acoustic, call_index, acoustic_comments) %>% unique()
 
 Amphibian_Processing_App <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_amphibian_processing_app/ple_amphibian_processing_app.csv') %>% 
@@ -141,14 +139,13 @@ VisualEncounter_Survey <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_visual_encounter_survey/ple_visual_encounter_survey.csv")  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) %>% bind_rows(VisualEncounter_Survey_old)
+  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) 
 
 VisualEncounter_Survey_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_visual_encounter_survey/ple_visual_encounter_survey_visual_encounter_information.csv')  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, created_at, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves) %>%
-  bind_rows(VisualEncounter_Survey_Repeatable_old)
+  select(fulcrum_id, created_at, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves) 
 
 CMR_Data <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_cmr_data/ple_cmr_data.csv') %>% 
