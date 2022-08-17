@@ -18,20 +18,6 @@ File for Fulcrum Export before app crashed.
 ```
 
 ```{r}
-Acoustic_Survey_old <-
-  read_csv('Data/FulcrumDataExports/Fulcrum_Export_e9d9f1d9-dd61-4d04-a39c-e28cee0e156f/ple_acoustic_survey/ple_acoustic_survey.csv') %>% 
-  group_by(fulcrum_id) %>% 
-  top_n(1, version) %>% 
-  filter(change_type != 'delete') %>% 
-  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) %>% unique()
-
-Acoustic_Survey_Repeatable_old <-
-  read_csv('Data/FulcrumDataExports/Fulcrum_Export_e9d9f1d9-dd61-4d04-a39c-e28cee0e156f/ple_acoustic_survey/ple_acoustic_survey_acoustic_survey.csv') %>%
-  group_by(fulcrum_id) %>% 
-  top_n(1, version) %>% 
-  ungroup() %>%
-  select(fulcrum_id, created_at, fulcrum_parent_id, species_acoustic, call_index, acoustic_comments) %>% unique()
-
 Amphibian_Processing_App_old <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_e9d9f1d9-dd61-4d04-a39c-e28cee0e156f/ple_amphibian_survey/ple_amphibian_survey.csv') %>% 
   group_by(fulcrum_id) %>% 
