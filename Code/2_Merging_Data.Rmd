@@ -54,6 +54,10 @@ right_join(munged_Amphibian_Processing_App, munged_Amphibian_Processing_App_Repe
 by = c('location', 'date', 'bag_id')
 
 ) %>% 
+  mutate(body_temperature = if_else(is.na(body_temperature.x), body_temperature.y, body_temperature.x,),
+         time_of_capture = if_else(is.na(time_of_capture.x), time_of_capture.y, time_of_capture.x,),
+         microhabitat_type = if_else(is.na(microhabitat_type.x), microhabitat_type.y, microhabitat_type.x,),
+         microhabitat_temperature = if_else(is.na(microhabitat_temperature.x), microhabitat_temperature.y, microhabitat_temperature.x,)) %>% view()
   arrange(created_at.y.x) %>%
   mutate_at(vars(bd_swab_tube_id:toe_clip_tube_id), funs(replace(., duplicated(.), NA))) %>%
   select(observer, date, location, start_time, end_time, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, species_capture, life_stage, sex, bd_swab_tube_id:toe_clip_tube_id, capture_comments) %>% unique() 
