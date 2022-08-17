@@ -1,73 +1,39 @@
 observer,date,location,start_time,end_time,time_of_capture,body_temperature,microhabitat_type,microhabitat_temperature,species_capture,life_stage,sex,bd_swab_tube_id,dry_swab_tube_id,crispr_swab_tube_id,bacterial_swab_tube_id,mucusome_id,amp_id_1,amp_id_2,amp_id_3,amp_id_4,antibody_id_1,antibody_id_2,antibody_id_3,antibody_id_4,toe_clip_tube_id,capture_comments
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:03:00,19.2,Water,18.8,Rana catesbeiana,NA,NA,2022-05-19 admin raca#24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:03:00,19.2,Water,18.8,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:08:00,18.2,Emergent Vegetation (Lower than 1m),18.4,Pseudacris crucifer,Adult,Male,2022-05-19-admin-pscr6,NA,NA,2022-05-19-admin-pscr6,2022-05-19-admin-pscr6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:08:00,18.2,Emergent Vegetation (Lower than 1m),18.4,Pseudacris crucifer,Adult,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:09:00,18.3,Tree/Log/Bush (Lower than 1m),17.5,Rana pipiens,NA,NA,2022-05-19 admin rapi#27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:09:00,18.3,Tree/Log/Bush (Lower than 1m),17.5,Rana pipiens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:11:00,18.2,Emergent Vegetation (Lower than 1m),18.2,Pseudacris crucifer,Adult,Male,2022-05-19-admin-pscr5,NA,NA,2022-05-19-admin-pscr5,2022-05-19-admin-pscr5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:11:00,18.2,Emergent Vegetation (Lower than 1m),18.2,Pseudacris crucifer,Adult,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:12:00,18,Water,17.9,Rana catesbeiana,NA,NA,2022-05-19 admin raca#19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:12:00,18,Water,17.9,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:17:00,18.2,Water,18.2,Rana catesbeiana,Juvenile,Unknown,2022-05-18-admin-raca10,NA,NA,2022-05-18-admin-raca10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:17:00,18.2,Water,18.2,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:18:00,18.2,Tree/Log/Bush (Lower than 1m),18.2,Pseudacris crucifer,Adult,Male,2022-05-19-admin-pscr4,NA,NA,2022-05-19-admin-pscr4,2022-05-19-admin-pscr4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:18:00,18.2,Tree/Log/Bush (Lower than 1m),18.2,Pseudacris crucifer,Adult,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:21:00,18.2,Water,18.3,Rana catesbeiana,Juvenile,Unknown,2022-05-19 admin raca#15,NA,NA,2022-05-19 admin raca#15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:21:00,18.2,Water,18.3,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:25:00,18.1,Water,18,Rana pipiens,NA,NA,2022-05-19 admin rapi#29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:25:00,18.1,Water,18,Rana pipiens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:28:00,18.3,Water,18.3,Rana catesbeiana,NA,NA,2022-05-19 admin raca#26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:28:00,18.3,Water,18.3,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:32:00,17.8,Water,18,Rana pipiens,Adult,Female,2022-08-15-admin-rapi3,NA,NA,2022-08-15-admin-rapi3,2022-08-15-admin-rapi3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:32:00,17.8,Water,18,Rana pipiens,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:34:00,19.4,Water,19.7,Rana catesbeiana,NA,NA,2022-05-19 admin raca#22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:34:00,19.4,Water,19.7,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:37:00,17.6,Water,17.8,Rana pipiens,Adult,Female,2022-05-19-admin-rapi1,NA,NA,2022-05-19-admin-rapi1,2022-05-19-admin-rapi1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:37:00,17.6,Water,17.8,Rana pipiens,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:43:00,20.1,Water,20.4,Rana catesbeiana,Adult,Female,2022-05-19-admin-raca8,NA,NA,2022-05-19-admin-raca8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:43:00,20.1,Water,20.4,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:45:00,17.7,Water,17.8,Rana catesbeiana,NA,NA,NA,NA,NA,2022-05-19 admin raca#23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:45:00,17.7,Water,17.8,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:47:00,18.6,Wet ground,18.8,Rana pipiens,Adult,Female,2022-08-19-admin-rapi2,NA,NA,2022-08-19-admin-rapi2,2022-08-19-admin-rapi2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,21:47:00,18.6,Wet ground,18.8,Rana pipiens,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:48:00,17.9,Water,18.1,Rana catesbeiana,NA,NA,2022-05-19 admin raca#25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:48:00,17.9,Water,18.1,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:52:00,18.2,Water,18.3,Rana catesbeiana,Juvenile,Unknown,2022-05-19 admin raca#17,NA,NA,2022-05-19 admin raca#17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:52:00,18.2,Water,18.3,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:55:00,18.2,Water,18.3,Rana catesbeiana,NA,NA,2022-05-19 admin raca#21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,21:55:00,18.2,Water,18.3,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:03:00,18.4,Water,18.5,Rana catesbeiana,NA,NA,2022-05-19 admin racA#20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:03:00,18.4,Water,18.5,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,22:20:00,19.4,Water,19.6,Rana catesbeiana,Juvenile,Unknown,2022-05-19-admin-raca9,NA,NA,2022-05-19-admin-raca9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,22:20:00,19.4,Water,19.6,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:21:00,17.9,Emergent Vegetation (Higher than 1m),18.2,Rana pipiens,NA,NA,2022-05-19 admin rapi#28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:21:00,17.9,Emergent Vegetation (Higher than 1m),18.2,Rana pipiens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:24:00,18.2,Water,18.3,Rana catesbeiana,NA,NA,2022-05-19 admin raca#18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:24:00,18.2,Water,18.3,Rana catesbeiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:31:00,18.1,Water,18.5,Rana catesbeiana,Adult,Female,2022-05-19 admin raca#11,NA,NA,2022-05-19 admin raca#11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:31:00,18.1,Water,18.5,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:34:00,18.1,Water,18.4,Rana catesbeiana,Juvenile,Unknown,2022-05-19 admin raca#12,NA,NA,2022-05-19 admin raca#12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:34:00,18.1,Water,18.4,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:37:00,18,Water,18.1,Rana catesbeiana,Juvenile,Unknown,2022-05-19 admin raca #16,NA,NA,2022-05-19 admin raca #16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:37:00,18,Water,18.1,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,22:40:00,19.4,Water,19.7,Rana catesbeiana,Juvenile,Unknown,2022-05-19 admin #13,NA,NA,2022-05-19 admin #13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,22:40:00,19.4,Water,19.7,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:41:00,17.7,Emergent Vegetation (Lower than 1m),17.7,Rana catesbeiana,Juvenile,Unknown,2022-05-18-admin-raca7,NA,NA,2022-05-18-admin-raca7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-19,Admin Pond,19:31:00,22:59:00,22:41:00,17.7,Emergent Vegetation (Lower than 1m),17.7,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-19,Admin Pond,20:59:00,22:59:00,22:57:00,18.4,Water,18.6,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,13:30:00,NA,Dry ground,21.7,Bufo americanus,NA,Unknown,2022-05-20 admin buam#6,NA,NA,2022-05-20 admin buam#6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,13:30:00,NA,Dry ground,21.7,Bufo americanus,NA,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:36:00,NA,Leaf litter,19.8,Bufo americanus,NA,Unknown,2022-05-20 admin Buam#3,NA,NA,2022-05-20 admin Buam#3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:36:00,NA,Leaf litter,19.8,Bufo americanus,NA,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:41:00,NA,Leaf litter,20,Pseudacris crucifer,Adult,Unknown,2022-05-20-admin-pscr1,NA,NA,2022-05-20-admin-pscr1,2022-05-20-admin-pscr1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:41:00,NA,Leaf litter,20,Pseudacris crucifer,Adult,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:53:00,NA,Leaf litter,18.9,Bufo americanus,Adult,Unknown,2022-05-20 admin buam#2,NA,NA,2022-05-20 admin buam#2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Emily Jolly,2022-05-20,Admin Pond,13:28:00,14:37:00,13:53:00,NA,Leaf litter,18.9,Bufo americanus,Adult,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,14:15:00,23.4,Dry ground,24,Bufo americanus,NA,Unknown,2022-05-20 admin buam#5,NA,NA,2022-05-20 admin buam#5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,14:15:00,23.4,Dry ground,24,Bufo americanus,NA,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,14:18:00,22.4,Dry ground,23,Bufo americanus,NA,Unknown,2022-05-20 admin buam#4,NA,NA,2022-05-20 admin buam#4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Brandon Hoenig,2022-05-20,Admin Pond,13:29:00,14:37:00,14:18:00,22.4,Dry ground,23,Bufo americanus,NA,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-06-07,RV Pond,21:22:00,23:22:00,21:53:00,NA,Water,18.7,Rana catesbeiana,Adult,Female,BdSwab000067,NA,NA,BacSwab00067,MucBath00015,AMPBath00016,AMPBath00017,AMPBath00000,AMPBath00000,AntiBod00016,AntiBod00017,NA,NA,ToeClip00014,NA
 Myah Madril,2022-06-07,RV Pond,21:22:00,02:12:00,22:14:00,13.9,Tree/Log/Bush (Lower than 1m),14.7,Hyla versicolor,NA,NA,BdSwab000072,NA,NA,BacSwab00072,MucBath00020,AMPBath00024,AMPBath00000,NA,NA,AntiBod00024,AntiBod00000,NA,NA,ToeClip00000,NA
 Myah Madril,2022-06-07,RV Pond,21:22:00,02:12:00,22:19:00,12.9,Tree/Log/Bush (Higher than 1m),13.2,Hyla versicolor,NA,NA,BdSwab000070,NA,NA,BacSwab00070,MucBath00018,AMPBath00022,NA,NA,NA,AntiBod00022,NA,NA,NA,NA,NA
@@ -77,18 +43,15 @@ Emily Jolly,2022-06-07,RV Pond,21:22:00,23:22:00,23:00:00,NA,Water,16.3,Rana cla
 Emily Jolly,2022-06-07,RV Pond,21:22:00,23:22:00,23:03:00,NA,Water,16.4,Rana clamitans,NA,NA,BdSwab000074,NA,NA,BacSwab00074,MucBath00022,AMPBath00027,NA,NA,NA,AntiBod00027,NA,NA,NA,NA,NA
 Myah Madril,2022-06-07,RV Pond,21:22:00,02:12:00,23:05:00,11.7,Tree/Log/Bush (Higher than 1m),11.2,Hyla versicolor,NA,NA,BdSwab000071,NA,NA,BacSwab00071,MucBath00019,AMPBath00023,NA,NA,NA,AntiBod00023,NA,NA,NA,NA,NA
 Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:16:00,16.3,Tree/Log/Bush (Higher than 1m),16.4,Hyla versicolor,Adult,Male,BdSwab000086,NA,NA,BacSwab00086,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:16:00,16.3,Tree/Log/Bush (Higher than 1m),16.4,Hyla versicolor,Adult,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-06-08,RV Pond,21:11:00,22:02:00,21:32:00,19.7,Water,19.8,Rana catesbeiana,Adult,Female,BdSwab000092,NA,NA,BacSwab00092,MucBath00031,AMPBath00031,NA,NA,NA,AntiBod00031,NA,NA,NA,ToeClip00023,NA
 Emily Jolly,2022-06-08,RV Pond,21:11:00,22:02:00,21:35:00,19,Emergent Vegetation (Higher than 1m),18.5,Hyla versicolor,Adult,Male,BdSwab000084,NA,NA,BacSwab00084,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-06-08,RV Pond,21:11:00,22:02:00,21:36:00,19.4,Emergent Vegetation (Higher than 1m),17.6,Rana catesbeiana,Adult,Female,BdSwab00089,NA,NA,BacSwab00089,MucBath00028,AMPBath00028,NA,NA,NA,AntiBod00028,NA,NA,NA,ToeClip00020,NA
 Emily Jolly,2022-06-08,RV Pond,21:11:00,22:02:00,21:38:00,18.3,Emergent Vegetation (Higher than 1m),18.2,Hyla versicolor,Adult,Male,BdSwab000087,NA,NA,BacSwab00087,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:41:00,21.4,Water,21.2,Rana catesbeiana,Adult,Female,BdSwab000090,NA,NA,BacSwab00090,MucBath00029,AMPBath00029,NA,NA,NA,AntiBod00029,NA,NA,NA,ToeClip00021,NA
-Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:41:00,21.4,Water,21.2,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-06-08,RV Pond,21:11:00,22:03:00,21:47:00,17.2,Tree/Log/Bush (Higher than 1m),17.1,Hyla versicolor,Adult,Male,BdSwab000083,NA,NA,BacSwab00083,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-06-08,RV Pond,21:11:00,22:02:00,21:47:00,19.1,Water,19.2,Rana clamitans,Adult,Female,BdSwab000088,NA,NA,BacSwab00088,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-06-08,RV Pond,21:11:00,22:02:00,21:49:00,19.4,Emergent Vegetation (Lower than 1m),20,Rana catesbeiana,Adult,Female,BdSwab000091,NA,NA,BacSwab00091,MucBath00030,AMPBath00030,NA,NA,NA,AntiBod00030,NA,NA,NA,ToeClip00022,NA
 Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:52:00,16.1,Tree/Log/Bush (Higher than 1m),17.2,Hyla versicolor,Adult,Male,BdSwab000085,NA,NA,BacSwab00085,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Sydney Dawson,2022-06-08,RV Pond,21:11:00,22:02:00,21:52:00,16.1,Tree/Log/Bush (Higher than 1m),17.2,Hyla versicolor,Adult,Male,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-06-08,RV Pond,21:11:00,22:02:00,21:55:00,18.5,Water,NA,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-06-14,Tuttle Pond,21:35:00,22:47:00,21:41:00,21.4,Wet ground,21.2,Rana clamitans,Adult,Male,BdSwab00116,NA,NA,BacSwab00116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Emily Jolly,2022-06-14,Tuttle Pond,21:44:00,22:47:00,21:50:00,23.4,Emergent Vegetation (Lower than 1m),23.5,Rana clamitans,Adult,Female,BdSwab00117,NA,NA,BacSwab00117,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -244,7 +207,6 @@ Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,22:16:00,25.6,Water,26,Rana 
 Myah Madril,2022-07-11,RV Pond,22:12:00,00:04:00,22:17:00,22.8,Wet ground,23.1,Rana clamitans,Adult,Female,NA,DrySwab00057,CRSwab00046,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Sydney Dawson,2022-07-11,RV Pond,22:12:00,00:04:00,22:19:00,22.1,Tree/Log/Bush (Lower than 1m),21.9,NA,Adult,Female,BdSwab00164,DrySwab00053,CRSwab00042,BacSwab00163,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00079,NA
 NA,2022-07-11,RV Pond,22:04:00,00:04:00,22:28:00,24,Water,23.6,Rana clamitans,Adult,Female,NA,DrySwab00058,CRSwab00047,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,2022-07-11,RV Pond,22:04:00,00:04:00,22:28:00,24,Water,23.6,Rana clamitans,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,22:35:00,22.1,Water,22.2,Rana catesbeiana,Adult,Female,BdSwab00155,DrySwab00044,CRSwab00033,BacSwab00154,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00066,NA
 Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,22:47:00,25.5,Water,25.6,Rana catesbeiana,Adult,Female,BdSwab00163,DrySwab00052,CRSwab00041,BacSwab00162,MucBath00048,NA,NA,NA,NA,AntiBod00049,NA,NA,NA,ToeClip00078,NA
 Myah Madril,2022-07-11,RV Pond,22:12:00,00:04:00,22:52:00,24.1,Tree/Log/Bush (Lower than 1m),24,Hyla versicolor,Juvenile,Unknown,NA,DrySwab00061,CRSwab00050,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -256,7 +218,6 @@ Myah Madril,2022-07-11,RV Pond,22:12:00,00:04:00,23:13:00,25.1,Wet ground,25.3,R
 Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,23:16:00,25.4,Water,25.1,Rana clamitans,Juvenile,Unknown,NA,DrySwab00055,CRSwab00044,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,23:19:00,23.9,Water,23.7,Rana clamitans,Adult,Male,NA,DrySwab00059,CRSwab00048,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,2022-07-11,RV Pond,22:04:00,00:04:00,23:22:00,28.4,Water,23.5,Rana catesbeiana,Adult,Female,BdSwab00161,DrySwab00050,CRSwab00039,BacSwab00160,MucBath00046,AMPBath00046,NA,NA,NA,AntiBod00047,NA,NA,NA,ToeClip00074,NA
-NA,2022-07-11,RV Pond,22:04:00,00:04:00,23:22:00,28.4,Water,23.5,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-11,RV Pond,22:04:00,00:04:00,23:30:00,23.9,Water,24.6,Rana catesbeiana,Adult,Female,BdSwab00151,DrySwab00040,CRSwab00029,BacSwab00150,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00069,NA
 Sydney Dawson,2022-07-11,RV Pond,22:12:00,00:04:00,23:33:00,24.2,Water,24.4,Rana clamitans,Adult,Male,NA,DrySwab00054,CRSwab00043,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-11,RV Pond,22:12:00,00:04:00,23:33:00,25,Water,25.1,Rana catesbeiana,Adult,Female,BdSwab00156,DrySwab00045,CRSwab00034,BacSwab00155,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00068,NA
@@ -297,31 +258,24 @@ NA,2022-07-12,RV Pond,22:06:00,NA,23:00:00,NA,NA,NA,Rana catesbeiana,Juvenile,Un
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:01:00,22.1,Wet ground,22.1,Rana catesbeiana,Adult,Female,BdSwab00213,DrySwab00112,CRSwab00101,BacSwab00212,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00095,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:03:00,21.3,Tree/Log/Bush (Lower than 1m),22,Rana pipiens,Juvenile,Unknown,BdSwab00195,DrySwab00094,CRSwab00083,BacSwab00194,NA,NA,NA,NA,NA,AntiBod00051,NA,NA,NA,ToeClip00115,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:03:00,21.3,Tree/Log/Bush (Lower than 1m),22,Rana catesbeiana,Adult,Female,BdSwab00200,DrySwab00099,CRSwab00088,BacSwab00199,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00082,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:03:00,21.3,Tree/Log/Bush (Lower than 1m),22,Rana pipiens,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:03:00,21.3,Tree/Log/Bush (Lower than 1m),22,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:04:00,21.9,Wet ground,21.7,Rana catesbeiana,Juvenile,Unknown,BdSwab00225,DrySwab00124,CRSwab00113,BacSwab00224,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00107,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,22:07:00,21.6,Wet ground,22,Rana catesbeiana,Adult,Female,BdSwab00204,DrySwab00102,CRSwab00091,BacSwab00202,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00085,NA
 NA,2022-07-18,Tuttle Pond,21:58:00,23:42:00,22:07:00,21.7,Wet ground,21.7,Rana clamitans,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:09:00,21.9,Water,21.9,Rana catesbeiana,Adult,Female,BdSwab00210,DrySwab00109,CRSwab00098,BacSwab00209,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00092,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:09:00,21.9,Water,21.9,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,22:12:00,22.5,Tree/Log/Bush (Lower than 1m),22.5,Rana catesbeiana,Juvenile,Unknown,BdSwab00208,DrySwab00107,CRSwab00096,BacSwab00207,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00090,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:12:00,21.8,Wet ground,21.3,Rana catesbeiana,Adult,Female,BdSwab00206,DrySwab00105,CRSwab00094,BacSwab00205,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00088,NA
 NA,2022-07-18,Tuttle Pond,21:58:00,23:42:00,22:12:00,21.8,Wet ground,21.8,Rana clamitans,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:14:00,22.3,Water,22.8,Rana catesbeiana,Adult,Female,BdSwab00192,DrySwab00090,CRSwab00080,BacSwab00191,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00080,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:14:00,22.3,Water,22.8,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:14:00,21.3,Wet ground,21.3,Rana catesbeiana,Adult,Female,BdSwab00209,DrySwab00108,CRSwab00097,BacSwab00208,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00091,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:16:00,22.3,Wet ground,22.4,Rana catesbeiana,Adult,Female,BdSwab00214,DrySwab00113,CRSwab00102,BacSwab00213,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00096,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,22:16:00,22.9,Water,22.4,Rana catesbeiana,Adult,Female,BdSwab00211,DrySwab00110,CRSwab00099,BacSwab00210,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00093,NA
 NA,2022-07-18,Tuttle Pond,21:58:00,23:42:00,22:28:00,21.4,Wet ground,22.5,Rana clamitans,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:30:00,21.8,Wet ground,21.2,Rana catesbeiana,Juvenile,Unknown,BdSwab00218,DrySwab00117,CRSwab00106,BacSwab00217,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00100,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:31:00,22.4,Tree/Log/Bush (Lower than 1m),22.8,Rana catesbeiana,Adult,Female,BdSwab00231,DrySwab00130,CRSwab00119,BacSwab00230,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00113,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:31:00,22.4,Tree/Log/Bush (Lower than 1m),22.8,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:40:00,22.9,Tree/Log/Bush (Lower than 1m),22.9,Rana catesbeiana,Juvenile,Unknown,BdSwab00227,DrySwab00126,CRSwab00115,BacSwab00226,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00109,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:40:00,22.9,Tree/Log/Bush (Lower than 1m),22.9,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,22:41:00,NA,Water,NA,Rana catesbeiana,Adult,Female,BdSwab00193,DrySwab00092,CRSwab00081,BacSwab00192,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00081,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:44:00,22.4,Water,22.8,Rana catesbeiana,Juvenile,Unknown,BdSwab00215,DrySwab00114,CRSwab00103,BacSwab00214,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00097,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:47:00,23.2,Water,22.8,Rana catesbeiana,Juvenile,Unknown,BdSwab00201,DrySwab00100,CRSwab00089,BacSwab00200,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00083,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,22:47:00,23.2,Water,22.8,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:47:00,22.4,Water,22.6,Rana catesbeiana,Juvenile,Unknown,BdSwab00222,DrySwab00121,CRSwab00110,BacSwab00221,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00104,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,22:49:00,22.4,Water,22.6,Rana catesbeiana,Adult,Female,BdSwab00226,DrySwab00125,CRSwab00114,BacSwab00225,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00108,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,22:51:00,NA,Water,NA,Rana catesbeiana,Adult,Female,NA,DrySwab00103,CRSwab00092,BacSwab00203,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00086,NA
@@ -338,15 +292,12 @@ Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,23:11:00,20.5,Wet ground
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,23:12:00,NA,Water,NA,Rana catesbeiana,Adult,Female,BdSwab00217,DrySwab00116,CRSwab00105,BacSwab00216,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00099,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,23:15:00,20.5,Wet ground,20.6,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,MucBath00052,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00119,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:16:00,23.2,Water,23.2,Rana catesbeiana,Juvenile,Unknown,BdSwab00216,DrySwab00115,CRSwab00104,BacSwab00215,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00098,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:16:00,23.2,Water,23.2,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,23:19:00,22,Wet ground,20.8,Rana catesbeiana,Juvenile,Unknown,BdSwab00223,DrySwab00122,CRSwab00111,BacSwab00222,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00105,NA
 Sydney Dawson,2022-07-18,Tuttle Pond,21:58:00,NA,23:21:00,NA,Wet ground,NA,Rana catesbeiana,Juvenile,Unknown,BdSwab00230,DrySwab00129,CRSwab00118,BacSwab00229,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00112,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,23:22:00,20.4,Wet ground,20.9,Rana catesbeiana,Adult,Female,BdSwab00197,DrySwab00096,CRSwab00085,BacSwab00196,MucBath00053,AMPBath00053,NA,NA,NA,AntiBod00053,NA,NA,NA,ToeClip00116,NA
 Brandon Hoenig,2022-07-18,Tuttle Pond,21:58:00,23:30:00,23:25:00,20.6,Wet ground,20.6,Rana catesbeiana,Juvenile,Unknown,BdSwab00202,DrySwab00101,CRSwab00090,BacSwab00201,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00084,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:34:00,21.3,Wet ground,21.8,Rana catesbeiana,Adult,Female,BdSwab00220,DrySwab00119,CRSwab00108,BacSwab00219,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00102,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:34:00,21.3,Wet ground,21.8,Rana catesbeiana,Adult,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:37:00,20.5,Wet ground,20.8,Rana catesbeiana,Juvenile,Unknown,BdSwab00221,DrySwab00120,CRSwab00109,BacSwab00220,NA,NA,NA,NA,NA,NA,NA,NA,NA,ToeClip00103,NA
-Myah Madril,2022-07-18,Tuttle Pond,21:58:00,23:41:00,23:37:00,20.5,Wet ground,20.8,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-19,Tuttle Pond,21:31:00,22:36:00,21:34:00,24.8,Wet ground,25.3,Rana catesbeiana,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Brandon Hoenig,2022-07-19,Tuttle Pond,21:31:00,22:37:00,21:35:00,25.2,Water,25.3,Rana clamitans,Juvenile,Unknown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Myah Madril,2022-07-19,Tuttle Pond,21:31:00,22:36:00,21:37:00,25.3,Wet ground,24.8,Rana catesbeiana,Adult,Female,BdSwab00247,DrySwab00147,CRSwab00135,BacSwab00246,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
