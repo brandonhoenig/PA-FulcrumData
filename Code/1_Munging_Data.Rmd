@@ -127,31 +127,33 @@ Amphibian_Captured_Information <-
   filter(change_type != 'delete') %>%
   ungroup() %>% 
   select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time, survey_comments) %>%
-  bind_rows(Amphibian_Captured_Information_old)
+  bind_rows(Amphibian_Captured_Information_old) %>% unique()
 
 Amphibian_Captured_Information_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_captured_amphibian_information/ple_captured_amphibian_information_captured_amphibian_information.csv') %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
   select(fulcrum_id, created_at, species, fulcrum_parent_id, bag_id, time_of_capture, body_temperature, microhabitat_type, microhabitat_temperature, bag_photo) %>%
-  rbind(Amphibian_Captured_Information_Repeatable_old)
+  rbind(Amphibian_Captured_Information_Repeatable_old) %>% unique()
 
 VisualEncounter_Survey <-
   read_csv("Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_visual_encounter_survey/ple_visual_encounter_survey.csv")  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) 
+  select(fulcrum_id, created_at, observer, observer_other, date, location, start_time, end_time) %>% 
+  unique() 
 
 VisualEncounter_Survey_Repeatable <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_visual_encounter_survey/ple_visual_encounter_survey_visual_encounter_information.csv')  %>%
   group_by(fulcrum_id) %>% 
   top_n(1, version) %>% 
-  select(fulcrum_id, created_at, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves) 
+  select(fulcrum_id, created_at, fulcrum_parent_id, species_ves, species_ves_other, count_ves, comments_ves) %>%
+  unique()
 
 CMR_Data <-
   read_csv('Data/FulcrumDataExports/Fulcrum_Export_2ad93ec7-9001-4e9a-8918-1746456193fb/ple_cmr_data/ple_cmr_data.csv') %>% 
   select(fulcrum_id, created_at, location, species, capture_date, cmr_id, cmr_id_other) %>%
-  bind_rows(CMR_Data_old)
+  bind_rows(CMR_Data_old) %>% unique()
 ```
 
 Remove all files with the '_old' suffix so that we don't write those data in the next step.  We don't need duplicates as those data are in the files not marked with the '_old' suffix. 
