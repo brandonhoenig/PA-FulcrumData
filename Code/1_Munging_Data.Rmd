@@ -154,6 +154,11 @@ CMR_Data <-
   bind_rows(CMR_Data_old)
 ```
 
+Remove all files with the '_old' suffix so that we don't write those data in the next step.  We don't need duplicates as those data are in the files not marked with the '_old' suffix. 
+```{r}
+rm(list = ls()[grep("_old", ls())])
+```
+
 
 For loop to write all munged data files into new csvs.  This removes all of the extra Fulcrum-related data that is unrelated to the collection data. These files are found in the 'Output' folder. 
 ```{r}
