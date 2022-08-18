@@ -167,7 +167,7 @@ For loop to write all munged data files into new csvs.  This removes all of the 
 files <- mget(ls())
 
 for (i in 1:length(files)){
-  write.csv(files[[i]], paste("Output/Munged_data/munged_", names(files[i]), ".csv", sep = ""))
+  write.csv(files[[i]], paste("Output/Munged_data/munged_", names(files[i]), ".csv", sep = ""), row.names = FALSE)
 }
 ```
 
